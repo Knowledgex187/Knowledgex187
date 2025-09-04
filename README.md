@@ -49,6 +49,10 @@
 
   <!-- Bash -->
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
+  
+  <!-- Flask -->
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
+
 
 </div>
 
