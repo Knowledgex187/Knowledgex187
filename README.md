@@ -12,7 +12,7 @@
 </div>
 
 <h1>About Me</h1>
-My journey into technology began with the intriguing puzzle of ethical hacking, which I initially pursued as a hobby to understand system vulnerabilities and the mindset of securing them. However, the desire to not just break but also build and create led me to branch into full-stack development, where I found a powerful passion for crafting robust applications using Django for the backend and React for the frontend. This foundation in building functional, secure web platforms has now ignited a new enthusiasm: to branch into the world of artificial intelligence. I am incredibly excited by the potential of integrating AI capabilities into my development projects, aiming to create more intelligent, adaptive, and personalized user experiences that push the boundaries of what a website can be.
+𝕄𝕪 𝕛𝕠𝕦𝕣𝕟𝕖𝕪 𝕚𝕟𝕥𝕠 𝕥𝕖𝕔𝕙𝕟𝕠𝕝𝕠𝕘𝕪 𝕓𝕖𝕘𝕒𝕟 𝕨𝕚𝕥𝕙 𝕥𝕙𝕖 𝕚𝕟𝕥𝕣𝕚𝕘𝕦𝕚𝕟𝕘 𝕡𝕦𝕫𝕫𝕝𝕖 𝕠𝕗 𝕖𝕥𝕙𝕚𝕔𝕒𝕝 𝕙𝕒𝕔𝕜𝕚𝕟𝕘, 𝕨𝕙𝕚𝕔𝕙 𝕀 𝕚𝕟𝕚𝕥𝕚𝕒𝕝𝕝𝕪 𝕡𝕦𝕣𝕤𝕦𝕖𝕕 𝕒𝕤 𝕒 𝕙𝕠𝕓𝕓𝕪 𝕥𝕠 𝕦𝕟𝕕𝕖𝕣𝕤𝕥𝕒𝕟𝕕 𝕤𝕪𝕤𝕥𝕖𝕞 𝕧𝕦𝕝𝕟𝕖𝕣𝕒𝕓𝕚𝕝𝕚𝕥𝕚𝕖𝕤 𝕒𝕟𝕕 𝕥𝕙𝕖 𝕞𝕚𝕟𝕕𝕤𝕖𝕥 𝕠𝕗 𝕤𝕖𝕔𝕦𝕣𝕚𝕟𝕘 𝕥𝕙𝕖𝕞. ℍ𝕠𝕨𝕖𝕧𝕖𝕣, 𝕥𝕙𝕖 𝕕𝕖𝕤𝕚𝕣𝕖 𝕥𝕠 𝕟𝕠𝕥 𝕛𝕦𝕤𝕥 𝕓𝕣𝕖𝕒𝕜 𝕓𝕦𝕥 𝕒𝕝𝕤𝕠 𝕓𝕦𝕚𝕝𝕕 𝕒𝕟𝕕 𝕔𝕣𝕖𝕒𝕥𝕖 𝕝𝕖𝕕 𝕞𝕖 𝕥𝕠 𝕓𝕣𝕒𝕟𝕔𝕙 𝕚𝕟𝕥𝕠 𝕗𝕦𝕝𝕝-𝕤𝕥𝕒𝕔𝕜 𝕕𝕖𝕧𝕖𝕝𝕠𝕡𝕞𝕖𝕟𝕥, 𝕨𝕙𝕖𝕣𝕖 𝕀 𝕗𝕠𝕦𝕟𝕕 𝕒 𝕡𝕠𝕨𝕖𝕣𝕗𝕦𝕝 𝕡𝕒𝕤𝕤𝕚𝕠𝕟 𝕗𝕠𝕣 𝕔𝕣𝕒𝕗𝕥𝕚𝕟𝕘 𝕣𝕠𝕓𝕦𝕤𝕥 𝕒𝕡𝕡𝕝𝕚𝕔𝕒𝕥𝕚𝕠𝕟𝕤 𝕦𝕤𝕚𝕟𝕘 𝔻𝕛𝕒𝕟𝕘𝕠 𝕗𝕠𝕣 𝕥𝕙𝕖 𝕓𝕒𝕔𝕜𝕖𝕟𝕕 𝕒𝕟𝕕 ℝ𝕖𝕒𝕔𝕥 𝕗𝕠𝕣 𝕥𝕙𝕖 𝕗𝕣𝕠𝕟𝕥𝕖𝕟𝕕. 𝕋𝕙𝕚𝕤 𝕗𝕠𝕦𝕟𝕕𝕒𝕥𝕚𝕠𝕟 𝕚𝕟 𝕓𝕦𝕚𝕝𝕕𝕚𝕟𝕘 𝕗𝕦𝕟𝕔𝕥𝕚𝕠𝕟𝕒𝕝, 𝕤𝕖𝕔𝕦𝕣𝕖 𝕨𝕖𝕓 𝕡𝕝𝕒𝕥𝕗𝕠𝕣𝕞𝕤 𝕙𝕒𝕤 𝕟𝕠𝕨 𝕚𝕘𝕟𝕚𝕥𝕖𝕕 𝕒 𝕟𝕖𝕨 𝕖𝕟𝕥𝕙𝕦𝕤𝕚𝕒𝕤𝕞: 𝕥𝕠 𝕓𝕣𝕒𝕟𝕔𝕙 𝕚𝕟𝕥𝕠 𝕥𝕙𝕖 𝕨𝕠𝕣𝕝𝕕 𝕠𝕗 𝕒𝕣𝕥𝕚𝕗𝕚𝕔𝕚𝕒𝕝 𝕚𝕟𝕥𝕖𝕝𝕝𝕚𝕘𝕖𝕟𝕔𝕖. 𝕀 𝕒𝕞 𝕚𝕟𝕔𝕣𝕖𝕕𝕚𝕓𝕝𝕪 𝕖𝕩𝕔𝕚𝕥𝕖𝕕 𝕓𝕪 𝕥𝕙𝕖 𝕡𝕠𝕥𝕖𝕟𝕥𝕚𝕒𝕝 𝕠𝕗 𝕚𝕟𝕥𝕖𝕘𝕣𝕒𝕥𝕚𝕟𝕘 𝔸𝕀 𝕔𝕒𝕡𝕒𝕓𝕚𝕝𝕚𝕥𝕚𝕖𝕤 𝕚𝕟𝕥𝕠 𝕞𝕪 𝕕𝕖𝕧𝕖𝕝𝕠𝕡𝕞𝕖𝕟𝕥 𝕡𝕣𝕠𝕛𝕖𝕔𝕥𝕤, 𝕒𝕚𝕞𝕚𝕟𝕘 𝕥𝕠 𝕔𝕣𝕖𝕒𝕥𝕖 𝕞𝕠𝕣𝕖 𝕚𝕟𝕥𝕖𝕝𝕝𝕚𝕘𝕖𝕟𝕥, 𝕒𝕕𝕒𝕡𝕥𝕚𝕧𝕖, 𝕒𝕟𝕕 𝕡𝕖𝕣𝕤𝕠𝕟𝕒𝕝𝕚𝕫𝕖𝕕 𝕦𝕤𝕖𝕣 𝕖𝕩𝕡𝕖𝕣𝕚𝕖𝕟𝕔𝕖𝕤 𝕥𝕙𝕒𝕥 𝕡𝕦𝕤𝕙 𝕥𝕙𝕖 𝕓𝕠𝕦𝕟𝕕𝕒𝕣𝕚𝕖𝕤 𝕠𝕗 𝕨𝕙𝕒𝕥 𝕒 𝕨𝕖𝕓𝕤𝕚𝕥𝕖 𝕔𝕒𝕟 𝕓𝕖.
 
 <h1>Technolgies Used</h1>
 
