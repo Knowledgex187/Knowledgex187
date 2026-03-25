@@ -70,5 +70,35 @@
 
 </div>
 
+<h1>Top Projects</h1>
+
+
+# AY App - Construction Project Management Platform
+
+## 🏗️ Project Overview
+
+**AY App** is a sophisticated, full-stack construction project management platform designed specifically for the Kenyan construction industry. This enterprise-grade application streamlines collaboration between clients, project managers, consultants, contractors, and suppliers throughout the entire project lifecycle. Built with modern technologies and industry best practices, AY App represents a comprehensive solution to the complex challenges of construction project management in emerging markets.
+
+### 🎯 **Project Vision & Impact**
+
+As a developer, I envisioned creating more than just another project management tool. I wanted to build a platform that addresses the unique needs of the construction industry in Kenya—a market often underserved by generic software solutions. This project demonstrates my ability to understand complex business domains, translate real-world requirements into technical specifications, and deliver a production-ready application that solves tangible problems.
+
+The platform bridges critical gaps in construction project management by providing:
+- **Centralized collaboration** for all stakeholders
+- **Real-time financial tracking** across multiple currencies
+- **Compliance management** with local regulations
+- **Scalable architecture** that can grow with the business
+
+## 📊 **Project Statistics & Scale**
+
+| Metric | Value | Significance |
+|--------|-------|--------------|
+| **Total Files** | 28,670 | Enterprise-scale codebase |
+| **Project Size** | 556 MB | Comprehensive feature set |
+| **Python Files** | 3,810 | Robust backend logic |
+| **JavaScript/JSX Files** | 12,206 | Rich frontend experience |
+| **Database Migrations** | 14 files | Streamlined schema evolution |
+| **Active Development** | Ongoing (Latest: March 2026) | Production deployed with continuous development |
+
 
 
