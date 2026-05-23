@@ -101,7 +101,7 @@ The platform bridges critical gaps in construction project management by providi
 | **Python Files** | 3,810 | Robust backend logic |
 | **JavaScript/JSX Files** | 12,206 | Rich frontend experience |
 | **Database Migrations** | 14 files | Streamlined schema evolution |
-| **Active Development** | Ongoing (Latest: March 2026) | Production deployed with continuous development |
+| **Active Development** | Ongoing | Production deployed with continuous development |
 
 
 
