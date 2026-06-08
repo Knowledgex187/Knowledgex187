@@ -178,7 +178,3 @@ This add‑on is available for both new and existing Arts You users. Administrat
 | Template rendering accuracy | 100% layout fidelity (tested weekly) |
 | Organisation support | Unlimited templates per org |
 | API availability | 99.9% uptime SLA |
-
-#### 🚀 Current Status
-
-The microservice is in **active development** with a working MVP already deployed for internal testing. The first production version is scheduled for release alongside the next major Arts You update.
