@@ -104,100 +104,81 @@ The platform bridges critical gaps in construction project management by providi
 | **Active Development** | Ongoing | Production deployed with continuous development |
 
 <h1>Arts You Documents</h1>
-📄 Document Generation Microservice for Arts You
 
-Arts You Documents is a modular microservice that extends the Arts You project management platform with enterprise‑grade document automation. It transforms static company documents into intelligent, dynamic Jinja2 templates, allowing organisations to generate contracts, reports, and compliance forms in seconds – not days.
+### 📄 Document Generation Microservice for Arts You
 
-This add‑on is available for both new and existing Arts You users. Administrators can purchase the microservice as a separate module, after which their team provides the source documents (Word, PDF, etc.). The Arts You team converts each document into a Jinja2‑powered template, bundles it with a dynamic JSON form schema, and uploads everything into the organisation’s dedicated workspace.
-🧩 How It Works
+**Arts You Documents** is a modular microservice that extends the Arts You project management platform with enterprise‑grade document automation. It transforms static company documents into intelligent, dynamic Jinja2 templates, allowing organisations to generate contracts, reports, and compliance forms in seconds – not days.
 
-    Onboarding
+This add‑on is available for both new and existing Arts You users. Administrators can purchase the microservice as a separate module, after which their team provides the source documents (Word, PDF, etc.). The **Arts You team** converts each document into a Jinja2‑powered template, bundles it with a dynamic JSON form schema, and uploads everything into the organisation’s dedicated workspace.
 
-        Administrator buys the "Arts You Documents" add‑on for their organisation.
+#### 🧩 How It Works
 
-        They upload the company’s existing documents (e.g., employment contracts, NDA templates, invoice layouts).
+1. **Onboarding**  
+   - Administrator buys the "Arts You Documents" add‑on for their organisation.  
+   - They upload the company’s existing documents (e.g., employment contracts, NDA templates, invoice layouts).
 
-    Template Engineering (Arts You Team)
+2. **Template Engineering (Arts You Team)**  
+   - Our team converts each document into a **Jinja2 template** with placeholders for dynamic fields.  
+   - For every template, we create a **JSON form schema** that defines:
+     - Field types (text, date, number, email, dropdown, etc.)
+     - Validation rules (required, regex, min/max, custom logic)
+     - Default values and help text
 
-        Our team converts each document into a Jinja2 template with placeholders for dynamic fields.
+3. **Upload to the Microservice**  
+   - The Jinja2 syntax and the form schema are stored in the cloud database, linked to the organisation’s account.
 
-        For every template, we create a JSON form schema that defines:
+4. **End‑User Workflow**  
+   - A user (project manager, admin, or team member) browses the available templates by category.  
+   - They select a template → the frontend dynamically renders a form based on the stored JSON schema.  
+   - After filling in the fields and pressing **Submit**, the microservice:
+     - Validates all input against the schema (server‑side)
+     - Merges the data with the Jinja2 template
+     - Generates a **PDF document**
+     - Sends the PDF to one or more recipients from the user’s contact list (email + optional SMS)
+     - Logs the transaction for later review
 
-            Field types (text, date, number, email, dropdown, etc.)
+5. **Organisation‑Wide Access & Analytics**  
+   - All templates and generated documents are visible to every member of the organisation (role‑based permissions available).  
+   - A dedicated **Document Log** shows:
+     - Document name, date generated
+     - Recipient email/phone
+     - Status (sent, opened, failed)
+     - User who triggered the generation  
+   - Organisations can export analytics (e.g., most‑used templates, monthly volume).
 
-            Validation rules (required, regex, min/max, custom logic)
+#### 📚 Template Categories (50+ and Growing)
 
-            Default values and help text
+| Category | Example Templates |
+|----------|-------------------|
+| 🏢 Administration & Office | Meeting minutes, office memo, equipment request form |
+| 👥 Human Resources | Employment contract, offer letter, disciplinary notice, leave request |
+| ⚖️ Legal & Compliance | NDA, service agreement, data processing addendum, compliance checklist |
+| 📢 Sales & Marketing | Proposal, quotation, marketing campaign brief, client onboarding form |
+| 🔐 IT & Security | IT security policy, access request form, incident report, VPN agreement |
+| 💰 Finance & Accounting | Invoice, purchase order, expense claim, budget approval form |
+| 📊 Project Management & Operations | Project charter, change order, risk register, meeting agenda, status report |
 
-    Upload to the Microservice
+> **Note:** The library is continuously updated. Organisations can also request custom templates for a one‑time fee.
 
-        The Jinja2 syntax and the form schema are stored in the cloud database, linked to the organisation’s account.
+#### 🏗️ Technical Architecture (Microservice Overview)
 
-    End‑User Workflow
+- **Backend:** Python Django (REST Framework) – separate service from the main Arts You monolith, communicating via authenticated API calls.
+- **Template Engine:** Jinja2 + WeasyPrint / `docxtpl` for PDF rendering.
+- **Form Validation:** JSON Schemas (draft‑07) validated using `jsonschema` on the server.
+- **Queue:** Celery with Redis broker for asynchronous PDF generation and email sending.
+- **Storage:** Generated PDFs stored in an S3‑compatible bucket (or locally with versioning).
+- **Frontend Integration:** React components that consume the form schema and render dynamic forms (using `react-jsonschema-form` or similar).
 
-        A user (project manager, admin, or team member) browses the available templates by category.
+#### 📊 Microservice Metrics (Planned / In Development)
 
-        They select a template → the frontend dynamically renders a form based on the stored JSON schema.
+| Metric | Target / Status |
+|--------|------------------|
+| Average PDF generation time | < 2 seconds per document |
+| Concurrent requests | 100+ (with Celery workers) |
+| Template rendering accuracy | 100% layout fidelity (tested weekly) |
+| Organisation support | Unlimited templates per org |
+| API availability | 99.9% uptime SLA |
 
-        After filling in the fields and pressing Submit, the microservice:
+#### 🚀 Current Status
 
-            Validates all input against the schema (server‑side)
-
-            Merges the data with the Jinja2 template
-
-            Generates a PDF document
-
-            Sends the PDF to one or more recipients from the user’s contact list (email + optional SMS)
-
-            Logs the transaction for later review
-
-    Organisation‑Wide Access & Analytics
-
-        All templates and generated documents are visible to every member of the organisation (role‑based permissions available).
-
-        A dedicated Document Log shows:
-
-            Document name, date generated
-
-            Recipient email/phone
-
-            Status (sent, opened, failed)
-
-            User who triggered the generation
-
-        Organisations can export analytics (e.g., most‑used templates, monthly volume).
-
-📚 Template Categories (50+ and Growing)
-Category	Example Templates
-🏢 Administration & Office	Meeting minutes, office memo, equipment request form
-👥 Human Resources	Employment contract, offer letter, disciplinary notice, leave request
-⚖️ Legal & Compliance	NDA, service agreement, data processing addendum, compliance checklist
-📢 Sales & Marketing	Proposal, quotation, marketing campaign brief, client onboarding form
-🔐 IT & Security	IT security policy, access request form, incident report, VPN agreement
-💰 Finance & Accounting	Invoice, purchase order, expense claim, budget approval form
-📊 Project Management & Operations	Project charter, change order, risk register, meeting agenda, status report
-
-    Note: The library is continuously updated. Organisations can also request custom templates for a one‑time fee.
-
-🏗️ Technical Architecture (Microservice Overview)
-
-    Backend: Python Django (REST Framework) – separate service from the main Arts You monolith, communicating via authenticated API calls.
-
-    Template Engine: Jinja2 + WeasyPrint / docxtpl for PDF rendering.
-
-    Form Validation: JSON Schemas (draft‑07) validated using jsonschema library on the server.
-
-    Queue: Celery with Redis broker for asynchronous PDF generation and email sending.
-
-    Storage: Generated PDFs stored in an S3‑compatible bucket (or locally with versioning).
-
-    Frontend Integration: React components that consume the form schema and render dynamic forms (using react-jsonschema-form or similar).
-
-📊 Microservice Metrics (Planned / In Development)
-Metric	Target / Status
-Average PDF generation time	< 2 seconds per document
-Concurrent requests	100+ (with Celery workers)
-Template rendering accuracy	100% layout fidelity (tested weekly)
-Organisation support	Unlimited templates per org
-API availability	99.9% uptime SLA
-
+The microservice is in **active development** with a working MVP already deployed for internal testing. The first production version is scheduled for release alongside the next major Arts You update.
