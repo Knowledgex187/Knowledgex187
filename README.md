@@ -10,6 +10,7 @@
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
 </div>
+---
 
 I'm the founder of **Futurum Labs**, COO of **ArtsYou**, and lead builder behind the **AY App** – a construction management platform that tracks:
 
