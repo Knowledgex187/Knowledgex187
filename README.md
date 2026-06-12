@@ -98,6 +98,8 @@ I don't just write code. I build systems where money doesn't disappear, projects
 **Find me here:**  
  aaron@futurumlabs.net • [Futurum Labs] 
 
+---
+
 <h1>Technologies Used</h1>
 <div align="center">
 
@@ -145,6 +147,7 @@ I don't just write code. I build systems where money doesn't disappear, projects
 
 </div>
 
+---
 
 <h1>Top Projects</h1>
 
