@@ -53,7 +53,7 @@ Because the ecosystem needs better tools, not more "we'll audit it later" excuse
 - **`django-rbac-audit`** – Role-based access control with tamper-proof audit logs for Django
 - **`websocket-rate-limiter`** – Per-session WebSocket rate limiting (no more brute-force via WS)
 - **`multi-currency-safe`** – Decimal-based currency handling that won't float-point your budget into oblivion
-- **`django-analytics-middleware`** – Auto-redact PII, log auth events, and block non-compliant requests
+- **`django-analytics-middleware`** – https://pypi.org/project/django-analytics-middleware/ - Auto-redact PII, log auth events, and block non-compliant requests
 
 > I write the packages I wish existed when I built AY App. They're MIT licensed. Go break them, then open an issue.
 
