@@ -87,7 +87,7 @@ Lifestyle MVPs, pure AI wrappers, or teams whose security plan is "we'll fix it 
 - **AY App** – live construction management platform handling multi-currency budgets across Kenya, Uganda, Tanzania, and EU project sites.
 - **ArtsYou** – creative economy platform with secure payment escrow-like workflows.
 - **Futurum Labs** – I build and secure applications for clients across Africa and Europe.
-- **Open Source** – Security packages with 1k+ combined downloads (and counting)
+- **Open Source** – Ongoing open source development. Packages available at PyPi
 
 ---
 
