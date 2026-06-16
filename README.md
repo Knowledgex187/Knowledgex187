@@ -6,7 +6,7 @@
   <a href="https://knowledgex187.com" target="_blank" rel="noopener, noreferrer">
   <img src="https://img.shields.io/badge/Website-FF0000?style=for-the-badge&logo=google-chrome&logoColor=white">
 </a>
-<a href="www.linkedin.com/in/knowledgex187" target="_blank" rel="noopener, noreferrer">
+<a href="www.linkedin.com/in/Knowledgex187" target="_blank" rel="noopener, noreferrer">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
 </div>
